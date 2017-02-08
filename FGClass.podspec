@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/yangweicong/FGClass.git',
         :tag => s.version.to_s
     }
-  s.ios.deployment_target = '8.0'
+  # s.ios.deployment_target = '8.0'
   s.platform     = :ios, '8.0'
   s.source_files        = 'FGClass/**/*.{h,m}'
-  s.private_header_files = "FGClass/FGUtilsMacro.h"
+  # s.private_header_files = "FGClass/FGUtilsMacro.h"
   s.requires_arc        = true
   s.framework  = "UIKit"
   s.dependency "Masonry", "~> 1.0.2"

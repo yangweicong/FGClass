@@ -84,6 +84,7 @@
 		07743A6B1E4B18D800EE5632 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		07743A6C1E4B18D800EE5632 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		07743A6D1E4B18D800EE5632 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		07743A781E4B1C0500EE5632 /* FGClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +146,7 @@
 				07743A351E4B11C500EE5632 /* Base */,
 				07743A3C1E4B11C500EE5632 /* Category */,
 				07743A431E4B11C500EE5632 /* Macro&CommonValue */,
+				07743A781E4B1C0500EE5632 /* FGClass.h */,
 			);
 			name = FGClass;
 			path = ../../FGClass;
