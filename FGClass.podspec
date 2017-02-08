@@ -19,21 +19,22 @@ Pod::Spec.new do |s|
     }
   # s.ios.deployment_target = '8.0'
   s.platform     = :ios, '8.0'
-  # s.source_files        = 'FGClass/**/*.{h,m}'
+  s.source_files        = 'FGClass/**/*.{h,m}'
   s.private_header_files = "FGClass/FGClass.h"
   s.requires_arc        = true
   s.framework  = "UIKit"
   s.dependency "Masonry", "~> 1.0.2"
 
-  s.subspec 'Base' do |ss|
-    ss.source_files = 'FGClass/Base.{h,m}'
-  end
-  s.subspec 'Category' do |ss|
-    ss.source_files = 'FGClass/Category.{h,m}'
-  end
-  s.subspec 'Macro&CommonValue' do |ss|
-    ss.source_files = 'FGClass/Macro&CommonValue.{h,m}'
-  end
+
+  # s.subspec 'Base' do |ss|
+  #   ss.source_files = 'FGClass/Base.{h,m}'
+  # end
+  # s.subspec 'Category' do |ss|
+  #   ss.source_files = 'FGClass/Category.{h,m}'
+  # end
+  # s.subspec 'Macro&CommonValue' do |ss|
+  #   ss.source_files = 'FGClass/Macro&CommonValue.{h,m}'
+  # end
 
 
 end
