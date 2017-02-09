@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.framework  = "UIKit"
   s.dependency "Masonry", "~> 1.0.2"
 
-
-  # s.subspec 'Base' do |ss|
-  #   ss.source_files = 'FGClass/Base.{h,m}'
-  # end
-  # s.subspec 'Category' do |ss|
-  #   ss.source_files = 'FGClass/Category.{h,m}'
-  # end
+#显示文件夹
+  s.subspec 'Base' do |ss|
+    ss.source_files = 'FGClass/Base/*{h,m}'
+  end
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'FGClass/Category/*{h,m}'
+  end
   s.subspec 'Macro&CommonValue' do |ss|
     ss.source_files = 'FGClass/Macro&CommonValue/*.{h,m}'
   end
