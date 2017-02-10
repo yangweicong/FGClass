@@ -33,8 +33,6 @@
 		07743A951E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A8F1E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m */; };
 		07743A961E4D973900EE5632 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A911E4D973900EE5632 /* TPKeyboardAvoidingTableView.m */; };
 		07743A971E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A931E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
-		07743A9C1E4D9FB600EE5632 /* FGHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A991E4D9FB600EE5632 /* FGHorizontalScrollView.m */; };
-		07743A9D1E4D9FB600EE5632 /* FGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A9B1E4D9FB600EE5632 /* FGScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,10 +93,6 @@
 		07743A911E4D973900EE5632 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		07743A921E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		07743A931E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
-		07743A981E4D9FB600EE5632 /* FGHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGHorizontalScrollView.h; sourceTree = "<group>"; };
-		07743A991E4D9FB600EE5632 /* FGHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGHorizontalScrollView.m; sourceTree = "<group>"; };
-		07743A9A1E4D9FB600EE5632 /* FGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGScrollView.h; sourceTree = "<group>"; };
-		07743A9B1E4D9FB600EE5632 /* FGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,10 +210,6 @@
 		07743A7D1E4D93B100EE5632 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				07743A981E4D9FB600EE5632 /* FGHorizontalScrollView.h */,
-				07743A991E4D9FB600EE5632 /* FGHorizontalScrollView.m */,
-				07743A9A1E4D9FB600EE5632 /* FGScrollView.h */,
-				07743A9B1E4D9FB600EE5632 /* FGScrollView.m */,
 				07743A7E1E4D93B100EE5632 /* FGBaseLayoutView.h */,
 				07743A7F1E4D93B100EE5632 /* FGBaseLayoutView.m */,
 				07743A801E4D93B100EE5632 /* FGUtilsMacro.h */,
@@ -327,12 +317,10 @@
 				07743A451E4B11C500EE5632 /* FGBaseTableViewCell.m in Sources */,
 				07743A961E4D973900EE5632 /* TPKeyboardAvoidingTableView.m in Sources */,
 				07743A4D1E4B14E200EE5632 /* FGBaseCollectionViewCell.m in Sources */,
-				07743A9C1E4D9FB600EE5632 /* FGHorizontalScrollView.m in Sources */,
 				07743A701E4B18D800EE5632 /* MASConstraintMaker.m in Sources */,
 				07743A6F1E4B18D800EE5632 /* MASConstraint.m in Sources */,
 				07743A751E4B18D800EE5632 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				07743A711E4B18D800EE5632 /* MASLayoutConstraint.m in Sources */,
-				07743A9D1E4D9FB600EE5632 /* FGScrollView.m in Sources */,
 				07743A741E4B18D800EE5632 /* NSArray+MASAdditions.m in Sources */,
 				07743A221E4B11A400EE5632 /* AppDelegate.m in Sources */,
 				07743A1F1E4B11A400EE5632 /* main.m in Sources */,
