@@ -9,9 +9,9 @@
 #ifndef FGClass_h
 #define FGClass_h
 
-#import "FGBaseLayoutView.h"
 #import "FGUtilsMacro.h"
 #import "FGBaseDataModel.h"
 #import "FGBaseViewModel.h"
+#import "UIView+QuickCreate.h"
 
 #endif /* FGClass_h */

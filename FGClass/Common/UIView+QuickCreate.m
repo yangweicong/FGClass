@@ -1,18 +1,37 @@
 //
-//  UIButton+QuickCreate.m
-//  YiPlatformLive
+//  UIView+QuickCreate.m
+//  FGClassDemo
 //
-//  Created by Eric on 17/1/13.
+//  Created by Eric on 17/2/10.
 //  Copyright © 2017年 YangWeiCong. All rights reserved.
 //
 
-#import "UIButton+QuickCreate.h"
-#if __has_include(<FGUtilsMacro.h>)
-#import <FGUtilsMacro.h>
-#else
-#import "FGUtilsMacro.h"
-#endif
-//#import "FGUtilsMacro.h"
+#import "UIView+QuickCreate.h"
+
+@implementation UIView (QuickCreate)
+
+@end
+
+@implementation UILabel (QuickCreate)
+
++ (UILabel *)qc_text:(NSString *)text fontSize:(NSInteger)fontSize colorHex:(NSInteger)colorHex
+{
+    UILabel *label = [UILabel new];
+    [label qc_text:text textAlignment:0 font:UIFontSize(fontSize) color:UIColorFromHex(colorHex)];
+    return  label;
+}
+
+- (void)qc_text:(NSString *)text textAlignment:(NSTextAlignment)textAlignment font:(UIFont *)font color:(UIColor *)color
+{
+    if (text) { self.text = text;}
+    if (font) {self.font = font;}
+    if (color) {self.textColor = color;}
+    if (textAlignment) {self.textAlignment = textAlignment;}
+}
+
+@end
+
+
 
 @implementation UIButton (QuickCreate)
 
@@ -23,22 +42,12 @@
     return button;
 }
 
-+ (UIButton *)qc_title:(NSString *)title font:(UIFont *)font titleColor:(UIColor *)titleColor
-{
-    UIButton *button = [UIButton new];
-    [button qc_title:title font:font titleColor:titleColor];
-    return button;;
-}
-
 + (UIButton *)qc_imageString:(NSString *)imageString imageStringSelected:(NSString *)imageStringSelected
 {
     UIButton *button = [UIButton new];
     [button qc_image:[UIImage imageNamed:imageString] imageSelected:[UIImage imageNamed:imageStringSelected]];
     return button;
 }
-
-
-
 
 - (void)qc_image:(UIImage *)image imageSelected:(UIImage *)imageSelected
 {
@@ -63,17 +72,15 @@
         [self setTitleColor:titleColor forState:UIControlStateNormal];
     }
 }
+@end
 
-- (void)qc_backgroundImage:(UIImage *)backgroundImage backgroundImageSelected:(UIImage *)backgroundImageSelected
+@implementation UIImageView (QuickCreate)
+
++ (UIImageView *)qc_imageString:(NSString *)imageString
 {
-    if (backgroundImage) {
-        [self setBackgroundImage:backgroundImage forState:UIControlStateNormal];
-    }
-    
-    if (backgroundImageSelected) {
-        [self setBackgroundImage:backgroundImageSelected forState:UIControlStateSelected];
-    }
+    UIImageView *imageView = [UIImageView new];
+    imageView.image = [UIImage imageNamed:imageString];
+    return imageView;
 }
-
 
 @end

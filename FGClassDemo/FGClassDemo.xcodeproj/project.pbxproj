@@ -16,10 +16,7 @@
 		07743A441E4B11C500EE5632 /* FGBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A371E4B11C500EE5632 /* FGBaseDataModel.m */; };
 		07743A451E4B11C500EE5632 /* FGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A391E4B11C500EE5632 /* FGBaseTableViewCell.m */; };
 		07743A461E4B11C500EE5632 /* FGBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A3B1E4B11C500EE5632 /* FGBaseViewModel.m */; };
-		07743A471E4B11C500EE5632 /* UIButton+QuickCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A3F1E4B11C500EE5632 /* UIButton+QuickCreate.m */; };
-		07743A481E4B11C500EE5632 /* UILabel+QuickCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A411E4B11C500EE5632 /* UILabel+QuickCreate.m */; };
 		07743A4D1E4B14E200EE5632 /* FGBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A4C1E4B14E200EE5632 /* FGBaseCollectionViewCell.m */; };
-		07743A501E4B151900EE5632 /* FGBaseLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A4F1E4B151900EE5632 /* FGBaseLayoutView.m */; };
 		07743A6E1E4B18D800EE5632 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A561E4B18D800EE5632 /* MASCompositeConstraint.m */; };
 		07743A6F1E4B18D800EE5632 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A591E4B18D800EE5632 /* MASConstraint.m */; };
 		07743A701E4B18D800EE5632 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A5B1E4B18D800EE5632 /* MASConstraintMaker.m */; };
@@ -30,6 +27,14 @@
 		07743A751E4B18D800EE5632 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A681E4B18D800EE5632 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		07743A761E4B18D800EE5632 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A6A1E4B18D800EE5632 /* View+MASAdditions.m */; };
 		07743A771E4B18D800EE5632 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A6D1E4B18D800EE5632 /* ViewController+MASAdditions.m */; };
+		07743A831E4D93B100EE5632 /* FGBaseLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A7F1E4D93B100EE5632 /* FGBaseLayoutView.m */; };
+		07743A841E4D93B100EE5632 /* UIView+QuickCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A821E4D93B100EE5632 /* UIView+QuickCreate.m */; };
+		07743A941E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A8D1E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.m */; };
+		07743A951E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A8F1E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m */; };
+		07743A961E4D973900EE5632 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A911E4D973900EE5632 /* TPKeyboardAvoidingTableView.m */; };
+		07743A971E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A931E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		07743A9C1E4D9FB600EE5632 /* FGHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A991E4D9FB600EE5632 /* FGHorizontalScrollView.m */; };
+		07743A9D1E4D9FB600EE5632 /* FGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A9B1E4D9FB600EE5632 /* FGScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,16 +54,8 @@
 		07743A391E4B11C500EE5632 /* FGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTableViewCell.m; sourceTree = "<group>"; };
 		07743A3A1E4B11C500EE5632 /* FGBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseViewModel.h; sourceTree = "<group>"; };
 		07743A3B1E4B11C500EE5632 /* FGBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseViewModel.m; sourceTree = "<group>"; };
-		07743A3E1E4B11C500EE5632 /* UIButton+QuickCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+QuickCreate.h"; sourceTree = "<group>"; };
-		07743A3F1E4B11C500EE5632 /* UIButton+QuickCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QuickCreate.m"; sourceTree = "<group>"; };
-		07743A401E4B11C500EE5632 /* UILabel+QuickCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QuickCreate.h"; sourceTree = "<group>"; };
-		07743A411E4B11C500EE5632 /* UILabel+QuickCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QuickCreate.m"; sourceTree = "<group>"; };
-		07743A421E4B11C500EE5632 /* UIQuickCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIQuickCreate.h; sourceTree = "<group>"; };
-		07743A4A1E4B124100EE5632 /* FGUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
 		07743A4B1E4B14E200EE5632 /* FGBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseCollectionViewCell.h; sourceTree = "<group>"; };
 		07743A4C1E4B14E200EE5632 /* FGBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		07743A4E1E4B151900EE5632 /* FGBaseLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseLayoutView.h; sourceTree = "<group>"; };
-		07743A4F1E4B151900EE5632 /* FGBaseLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseLayoutView.m; sourceTree = "<group>"; };
 		07743A551E4B18D800EE5632 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		07743A561E4B18D800EE5632 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		07743A571E4B18D800EE5632 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -85,6 +82,23 @@
 		07743A6C1E4B18D800EE5632 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		07743A6D1E4B18D800EE5632 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		07743A781E4B1C0500EE5632 /* FGClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGClass.h; sourceTree = "<group>"; };
+		07743A7E1E4D93B100EE5632 /* FGBaseLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseLayoutView.h; sourceTree = "<group>"; };
+		07743A7F1E4D93B100EE5632 /* FGBaseLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseLayoutView.m; sourceTree = "<group>"; };
+		07743A801E4D93B100EE5632 /* FGUtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
+		07743A811E4D93B100EE5632 /* UIView+QuickCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickCreate.h"; sourceTree = "<group>"; };
+		07743A821E4D93B100EE5632 /* UIView+QuickCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickCreate.m"; sourceTree = "<group>"; };
+		07743A8C1E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		07743A8D1E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		07743A8E1E4D973900EE5632 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		07743A8F1E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		07743A901E4D973900EE5632 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		07743A911E4D973900EE5632 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		07743A921E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		07743A931E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		07743A981E4D9FB600EE5632 /* FGHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGHorizontalScrollView.h; sourceTree = "<group>"; };
+		07743A991E4D9FB600EE5632 /* FGHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGHorizontalScrollView.m; sourceTree = "<group>"; };
+		07743A9A1E4D9FB600EE5632 /* FGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGScrollView.h; sourceTree = "<group>"; };
+		07743A9B1E4D9FB600EE5632 /* FGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,7 @@
 		07743A1C1E4B11A400EE5632 /* FGClassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				07743A8B1E4D973900EE5632 /* TPKeyboardAvoiding */,
 				07743A541E4B18D800EE5632 /* Masonry */,
 				07743A341E4B11C500EE5632 /* FGClass */,
 				07743A201E4B11A400EE5632 /* AppDelegate.h */,
@@ -143,9 +158,8 @@
 		07743A341E4B11C500EE5632 /* FGClass */ = {
 			isa = PBXGroup;
 			children = (
+				07743A7D1E4D93B100EE5632 /* Common */,
 				07743A351E4B11C500EE5632 /* Base */,
-				07743A3C1E4B11C500EE5632 /* Category */,
-				07743A431E4B11C500EE5632 /* Macro&CommonValue */,
 				07743A781E4B1C0500EE5632 /* FGClass.h */,
 			);
 			name = FGClass;
@@ -155,8 +169,6 @@
 		07743A351E4B11C500EE5632 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				07743A4E1E4B151900EE5632 /* FGBaseLayoutView.h */,
-				07743A4F1E4B151900EE5632 /* FGBaseLayoutView.m */,
 				07743A4B1E4B14E200EE5632 /* FGBaseCollectionViewCell.h */,
 				07743A4C1E4B14E200EE5632 /* FGBaseCollectionViewCell.m */,
 				07743A361E4B11C500EE5632 /* FGBaseDataModel.h */,
@@ -167,34 +179,6 @@
 				07743A3B1E4B11C500EE5632 /* FGBaseViewModel.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		07743A3C1E4B11C500EE5632 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				07743A3D1E4B11C500EE5632 /* QuickCreate */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		07743A3D1E4B11C500EE5632 /* QuickCreate */ = {
-			isa = PBXGroup;
-			children = (
-				07743A3E1E4B11C500EE5632 /* UIButton+QuickCreate.h */,
-				07743A3F1E4B11C500EE5632 /* UIButton+QuickCreate.m */,
-				07743A401E4B11C500EE5632 /* UILabel+QuickCreate.h */,
-				07743A411E4B11C500EE5632 /* UILabel+QuickCreate.m */,
-				07743A421E4B11C500EE5632 /* UIQuickCreate.h */,
-			);
-			path = QuickCreate;
-			sourceTree = "<group>";
-		};
-		07743A431E4B11C500EE5632 /* Macro&CommonValue */ = {
-			isa = PBXGroup;
-			children = (
-				07743A4A1E4B124100EE5632 /* FGUtilsMacro.h */,
-			);
-			path = "Macro&CommonValue";
 			sourceTree = "<group>";
 		};
 		07743A541E4B18D800EE5632 /* Masonry */ = {
@@ -227,6 +211,37 @@
 				07743A6D1E4B18D800EE5632 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		07743A7D1E4D93B100EE5632 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				07743A981E4D9FB600EE5632 /* FGHorizontalScrollView.h */,
+				07743A991E4D9FB600EE5632 /* FGHorizontalScrollView.m */,
+				07743A9A1E4D9FB600EE5632 /* FGScrollView.h */,
+				07743A9B1E4D9FB600EE5632 /* FGScrollView.m */,
+				07743A7E1E4D93B100EE5632 /* FGBaseLayoutView.h */,
+				07743A7F1E4D93B100EE5632 /* FGBaseLayoutView.m */,
+				07743A801E4D93B100EE5632 /* FGUtilsMacro.h */,
+				07743A811E4D93B100EE5632 /* UIView+QuickCreate.h */,
+				07743A821E4D93B100EE5632 /* UIView+QuickCreate.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		07743A8B1E4D973900EE5632 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				07743A8C1E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.h */,
+				07743A8D1E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.m */,
+				07743A8E1E4D973900EE5632 /* TPKeyboardAvoidingScrollView.h */,
+				07743A8F1E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m */,
+				07743A901E4D973900EE5632 /* TPKeyboardAvoidingTableView.h */,
+				07743A911E4D973900EE5632 /* TPKeyboardAvoidingTableView.m */,
+				07743A921E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				07743A931E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,25 +315,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07743A841E4D93B100EE5632 /* UIView+QuickCreate.m in Sources */,
 				07743A761E4B18D800EE5632 /* View+MASAdditions.m in Sources */,
 				07743A461E4B11C500EE5632 /* FGBaseViewModel.m in Sources */,
 				07743A251E4B11A400EE5632 /* ViewController.m in Sources */,
-				07743A481E4B11C500EE5632 /* UILabel+QuickCreate.m in Sources */,
-				07743A471E4B11C500EE5632 /* UIButton+QuickCreate.m in Sources */,
-				07743A501E4B151900EE5632 /* FGBaseLayoutView.m in Sources */,
+				07743A971E4D973900EE5632 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				07743A941E4D973900EE5632 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				07743A771E4B18D800EE5632 /* ViewController+MASAdditions.m in Sources */,
 				07743A721E4B18D800EE5632 /* MASViewAttribute.m in Sources */,
 				07743A6E1E4B18D800EE5632 /* MASCompositeConstraint.m in Sources */,
 				07743A451E4B11C500EE5632 /* FGBaseTableViewCell.m in Sources */,
+				07743A961E4D973900EE5632 /* TPKeyboardAvoidingTableView.m in Sources */,
 				07743A4D1E4B14E200EE5632 /* FGBaseCollectionViewCell.m in Sources */,
+				07743A9C1E4D9FB600EE5632 /* FGHorizontalScrollView.m in Sources */,
 				07743A701E4B18D800EE5632 /* MASConstraintMaker.m in Sources */,
 				07743A6F1E4B18D800EE5632 /* MASConstraint.m in Sources */,
 				07743A751E4B18D800EE5632 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				07743A711E4B18D800EE5632 /* MASLayoutConstraint.m in Sources */,
+				07743A9D1E4D9FB600EE5632 /* FGScrollView.m in Sources */,
 				07743A741E4B18D800EE5632 /* NSArray+MASAdditions.m in Sources */,
 				07743A221E4B11A400EE5632 /* AppDelegate.m in Sources */,
 				07743A1F1E4B11A400EE5632 /* main.m in Sources */,
 				07743A441E4B11C500EE5632 /* FGBaseDataModel.m in Sources */,
+				07743A831E4D93B100EE5632 /* FGBaseLayoutView.m in Sources */,
+				07743A951E4D973900EE5632 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				07743A731E4B18D800EE5632 /* MASViewConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
