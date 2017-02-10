@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FGClass"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "火鹰科技iOS常用类"
   s.homepage     = "https://github.com/yangweicong/FGClass"
   
