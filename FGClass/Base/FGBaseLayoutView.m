@@ -9,7 +9,7 @@
 #import "FGBaseLayoutView.h"
 #import "FGUtilsMacro.h"
 
-#if __has_include(<AFNetworking/AFNetworking.h>)
+#if __has_include(<Masonry/Masonry.h>)
 #import <Masonry/Masonry.h>
 #else
 #import "Masonry.h"

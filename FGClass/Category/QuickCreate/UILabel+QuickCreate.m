@@ -7,7 +7,12 @@
 //
 
 #import "UILabel+QuickCreate.h"
+#if __has_include(<FGUtilsMacro.h>)
+#import <FGUtilsMacro.h>
+#else
 #import "FGUtilsMacro.h"
+#endif
+//#import "FGUtilsMacro.h"
 
 @implementation UILabel (QuickCreate)
 
